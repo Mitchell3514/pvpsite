@@ -1,0 +1,40 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+.root {
+  margin: 0;
+  position: fixed;
+  max-width: 300px;
+  max-height: 600px;
+  z-index: 6;
+  top: calc(50% - 300px);
+  left: 0;
+  background-color: blue;
+  border: red;
+  min-height: 300px;
+  min-width: 200px;
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  .root {
+    height: 120px;
+    max-width: inherit;
+    width: inherit;
+    position: static;
+  }
+}
+
+/*
+@media (max-width: 389px) {
+  .root {
+    height: 125px;
+  }
+}
+*/

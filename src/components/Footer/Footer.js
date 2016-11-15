@@ -11,6 +11,7 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Footer.css';
 import Feedback from '../Feedback';
+import GoogleAd from '../GoogleAd';
 import Link from '../Link';
 
 function Footer() {
@@ -18,6 +19,7 @@ function Footer() {
     <div className={s.root}>
       <hr className={s.bar} />
       <Feedback />
+      <GoogleAd />
       <div className={s.container}>
         <span className={s.text}>© PvPCraft</span>
         <span className={s.spacer}>·</span>

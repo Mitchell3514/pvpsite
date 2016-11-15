@@ -1,0 +1,6 @@
+{
+  "name": "GoogleAd",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GoogleAd.js"
+}
